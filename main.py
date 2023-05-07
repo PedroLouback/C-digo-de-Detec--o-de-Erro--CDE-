@@ -21,7 +21,7 @@ print("Mensagem com CDE: ", checksum(convert_ASCII(message), message))
 
 import random
 
-noise_prob = 0.01 #30% de probabilidade de erro
+noise_prob = 0.3 #30% de probabilidade de erro
 noisy_message = ''
 for c in message:
     if random.random() < noise_prob:
